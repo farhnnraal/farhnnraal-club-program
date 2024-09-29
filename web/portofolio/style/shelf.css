@@ -1,0 +1,33 @@
+.shelf {
+    display: flex;
+    justify-content: center;
+}
+
+.shelf-layer {
+    display: flex;
+    flex-direction: row;
+    column-gap: var(--gap-xl);
+
+    width: 80vw;
+}
+
+.shelf .shelf-layer .card {
+    flex: 1 0 0;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--gap-s);
+
+    padding: var(--pad-m);
+    border-radius: var(--radius-l);
+}
+
+.shelf .shelf-layer .card:nth-child(1) {
+    border: dashed 2px #16423C;
+}
+.shelf .shelf-layer .card:nth-child(2) {
+    border: dashed 2px #6C48C5;
+}
+.shelf .shelf-layer .card:nth-child(3) {
+    border: dashed 2px #654520;
+}

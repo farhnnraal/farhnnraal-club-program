@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    
+    background: #295F98;
+}
+
+footer .footer-layer {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--gap-s);
+
+    padding: var(--pad-xl);
+
+    width: 80vw;
+}
+
+footer .footer-layer h1 {
+    font-size: var(--font-41);
+}
+

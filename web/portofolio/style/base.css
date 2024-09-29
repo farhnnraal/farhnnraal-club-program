@@ -1,0 +1,60 @@
+:root {
+    --font-67: 67.77px;
+    --font-41: 41.89px;
+    --font-25: 25.89px;
+    --font-base: 16px;
+
+    --theme-dark: hsl(0, 0%, 18%);
+    --theme-light: #fafafa;
+
+    --color-gray: hsl(0, 0%, 80%);
+    --color-800020: #800020;
+    --color-DAA520: #DAA520;
+
+    --pad-s: 8px;
+    --pad-m: 16px;
+    --pad-l: 24px;
+    --pad-xl: 32px;
+
+    --gap-s: 8px;
+    --gap-m: 16px;
+    --gap-l: 24px;
+    --gap-xl: 32px;
+
+    --radius-s: 8px;
+    --radius-m: 16px;
+    --radius-l: 24px;
+    --radius-xl: 32px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+    background: var(--cnegatif);
+}   
+
+#main {
+    width: 100%;
+    font-family: "DM Sans", sans-serif;
+    color: var(--cbase);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: var(--gap-l);   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: var(--gap-l);
+
+    padding: 64px 0;
+}

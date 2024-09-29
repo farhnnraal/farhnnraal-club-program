@@ -1,0 +1,17 @@
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-layer {
+    width: 80vw;
+    height: 180px;
+    border-radius: var(--radius-l);
+    overflow: hidden;
+}
+
+.banner .banner-layer img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
